@@ -1,0 +1,6 @@
+# Executables and build outputs
+*.out
+*asan*
+
+# Do not ignore C source or header files
+!*.[ch]
