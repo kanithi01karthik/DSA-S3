@@ -1,6 +1,26 @@
 # Executables and build outputs
 *.out
+*.o
 *asan*
 
-# Do not ignore C source or header files
+# Ignore files without extension in Lab folders (compiled C binaries)
+Lab*/**
+!Lab*/**/
+!Lab*/**/*.*
+
+# Safeguard common non-extension files
+!Makefile
+!makefile
+!README*
+!LICENSE*
+
+# Safeguard source and data files
 !*.[ch]
+!*.txt
+!*.md
+!*.sh
+!*.py
+!*.json
+!*.in
+!*.ans
+!.gitignore
