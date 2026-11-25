@@ -24,3 +24,9 @@ Lab*/**
 !*.in
 !*.ans
 !.gitignore
+
+# Local lab reports and practice files
+*.pdf
+*_Output.docx
+/Lab10/examples/
+/Postfix/
